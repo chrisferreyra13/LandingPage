@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
-import Home from './components/pages/Home';
+import Home from './pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import AboutUs from './components/pages/AboutUs';
-import Hire from './components/pages/Hire';
-import SignUp from './components/pages/SignUp';
-import Projects from './components/pages/Projects';
+import AboutUs from './pages/AboutUs';
+import Hire from './pages/Hire';
+import Join from './pages/Join';
+import Projects from './pages/Projects';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <Route path='/about-us' component={AboutUs} />
           <Route path='/hire' component={Hire} />
           <Route path='/projects' component={Projects} />
-          <Route path='/sign-up' component={SignUp} />
+          <Route path='/join' component={Join} />
         </Switch>
       </Router>
     </>

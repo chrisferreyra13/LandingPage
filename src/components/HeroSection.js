@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import { Button } from './JoinButton';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -8,7 +8,9 @@ function HeroSection() {
     <div className='hero-container'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
       <h1>EXPLORE THE ALTERNATIVE</h1>
-      <p>What are you waiting for?</p>
+      <p>The <b>Explorers</b> of the <b>Alternative</b> are the most disruptive and energize people,</p>
+      <p>who works for challenging projects.</p>
+     
       <div className='hero-btns'>
         <Button
           className='btns'

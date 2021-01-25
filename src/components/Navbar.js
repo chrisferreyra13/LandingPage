@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from './JoinButton';
+import { Button } from './Button';
 import { Link } from 'react-router-dom';
-import './Navbar.css';
+import '../styles/Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -29,7 +29,10 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            LxL &nbsp; <i class="fas fa-feather-alt"/>
+            {/*<div className="b-letter-navbar-logo">B</div>*/}
+            B-
+            <div className="o-letter-navbar-logo">O</div>
+            ne{/*&nbsp; <i class="fas fa-feather-alt"/>*/}
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -69,7 +72,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>JOIN</Button>}
+          {button && <Button linkTo="/join" buttonStyle='btn--outline'>JOIN</Button>}
         </div>
       </nav>
     </>

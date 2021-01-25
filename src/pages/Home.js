@@ -4,19 +4,15 @@ import loadable from '@loadable/component';
 
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
-import MiddleBlockContent from '../content/MiddleBlockContent.json';
 
-const MiddleBlock = loadable(() => import('../components/MiddleBlock'));
+const MiddleBlockHome = loadable(() => import('../components/MiddleBlockHome'));
 const Cards = loadable(() => import('../components/Cards'));
 
 function Home() {
   return (
     <>
       <HeroSection />
-      <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-      />
+      <MiddleBlockHome/>
       <Cards />
       <Footer />
     </>

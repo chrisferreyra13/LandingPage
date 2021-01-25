@@ -1,12 +1,12 @@
 import React from 'react';
 import { withTranslation } from 'react-i18next';
-import './Cards.css';
+import '../styles/Cards.css';
 import CardItem from './CardItem';
 
 const Cards = () => {
   return (
     <div className='cards'>
-      <h6>What we are looking for</h6>
+      <h6>What are you looking for?</h6>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -16,13 +16,13 @@ const Cards = () => {
               path='/join'
             />
             <CardItem
-              src='images/hire_team.jpg'
+              src='images/hire_team_2.jpg'
               text='Hire our people'
               path='/hire'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Tell us your problem'
+              src='images/problem.jpg'
+              text='Trust us your problem'
               path='/projects'
             />
           </ul>

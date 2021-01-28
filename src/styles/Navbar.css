@@ -28,6 +28,18 @@
   display: flex;
   align-items: center;
 }
+/*
+.navbar-logo {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-self: start;
+}
+*/
+.navbar-brand>img {
+  padding: 7px 14px;
+}
 
 .o-letter-navbar-logo {
   color:#02af64;       /*#00c36f;*/

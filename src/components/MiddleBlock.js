@@ -1,18 +1,17 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import { withTranslation } from 'react-i18next';
 
+import '../App.css';
+import '../styles/MiddleBlock.css';
 
-import './MiddleBlock.css';
-
-const MiddleBlock = ({ title, content, t }) => {
+const MiddleBlock = ({ title, content}) => {
   return (
     <div className="middle-block">
       <Row type="flex" justify="center" align="middle">
         <div className="content-wrapper">
         <Col lg={24} md={24} sm={24} xs={24}>
-            <h6>{t(title)}</h6>
-            <div className="content">{t(content)}</div>
+            <h6>{title}</h6>
+            <div className="content">{content}</div>
         </Col>
         </div>
       </Row>
@@ -20,4 +19,4 @@ const MiddleBlock = ({ title, content, t }) => {
   );
 };
 
-export default withTranslation()(MiddleBlock);
+export default MiddleBlock;

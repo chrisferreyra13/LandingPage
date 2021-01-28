@@ -21,25 +21,25 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button linkTo='/home' buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
       </section>
-      <div class='footer-links'>
+      <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/about-us'>Vision</Link>
             <Link to='/about-us'>Mision</Link>
             <Link to='/'>Testimonials</Link>
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Explorers</h2>
             <Link to='/'>Who they are</Link>
             <Link to='/'>Mision</Link>
             <Link to='/'>Principles</Link>
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Connect</h2>
             <Link to='/'>Contact Us</Link>
             <Link to='/'>Instagram</Link>
@@ -48,41 +48,41 @@ function Footer() {
           </div>
         </div>
       </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              B-
+              B
               <div className="o-letter-social-logo">O</div>
               ne
-              {/*<i class='fab fa-typo3' />*/}
+              {/*<i className='fab fa-typo3' />*/}
             </Link>
           </div>
-          <small class='website-rights'>B-One © 2020</small>
-          <div class='social-icons'>
+          <small className='website-rights'>BOne © 2020</small>
+          <div className='social-icons'>
             <Link
-              class='social-icon-link instagram'
+              className='social-icon-link instagram'
               to='/'
               target='_blank'
               aria-label='Instagram'
             >
-              <i class='fab fa-instagram' />
+              <i className='fab fa-instagram' />
             </Link>
             <Link
-              class='social-icon-link youtube'
+              className='social-icon-link youtube'
               to='/'
               target='_blank'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
+              <i className='fab fa-youtube' />
             </Link>
             <Link
-              class='social-icon-link twitter'
+              className='social-icon-link twitter'
               to='/'
               target='_blank'
               aria-label='LinkedIn'
             >
-              <i class='fab fa-linkedin' />
+              <i className='fab fa-linkedin' />
             </Link>
           </div>
         </div>

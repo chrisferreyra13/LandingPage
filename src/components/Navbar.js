@@ -29,10 +29,8 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            {/*<div className="b-letter-navbar-logo">B</div>*/}
-            B-
-            <div className="o-letter-navbar-logo">O</div>
-            ne{/*&nbsp; <i class="fas fa-feather-alt"/>*/}
+            B<div className="o-letter-navbar-logo">O</div>ne{/*&nbsp; <i class="fas fa-feather-alt"/>*/}
+            {/*<img src='logo4.png'/>*/}
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

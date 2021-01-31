@@ -16,12 +16,12 @@ const Cards = () => {
               path='/join'
             />
             <CardItem
-              src='images/hire_team_2.jpg'
-              text='Hire our people'
+              src='images/hire-team-4.jpg'
+              text='Hire ExpA'
               path='/hire'
             />
             <CardItem
-              src='images/problem.jpg'
+              src='images/problem-2.jpg'
               text='Trust us your problem'
               path='/projects'
             />

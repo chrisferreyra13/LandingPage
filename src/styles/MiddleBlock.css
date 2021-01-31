@@ -1,6 +1,6 @@
 .middle-block {
     position: relative;
-    background: #f5f6fa;
+    background: #fff; /*#f5f6fa;*/
     padding: 4rem;
     display: flex;
     justify-content: center;
@@ -20,7 +20,21 @@
         font-size: 1.625rem;
     }
 }
+.line {
+    text-align: center;
+    align-items:center;
+}
+
 .content {
+    padding: 0.75rem 0 0.75rem;
+    color: #252e48;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+.content > p{
     padding: 0.75rem 0 0.75rem;
     color: #252e48;
     font-size: 20px;

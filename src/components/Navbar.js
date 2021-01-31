@@ -27,11 +27,11 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
+        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            {/*B<div className="o-letter-navbar-logo">O</div>ne{/*&nbsp; <i class="fas fa-feather-alt"/>*/}
+            <img src='logo.svg'/>
+        </Link>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            B<div className="o-letter-navbar-logo">O</div>ne{/*&nbsp; <i class="fas fa-feather-alt"/>*/}
-            {/*<img src='logo4.png'/>*/}
-          </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>

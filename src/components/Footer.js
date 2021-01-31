@@ -29,14 +29,12 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/about-us'>Vision</Link>
-            <Link to='/about-us'>Mision</Link>
-            <Link to='/'>Testimonials</Link>
+            <Link to='/about-us' exact>Vision</Link>
+            <Link to='/'>Concepts</Link>
           </div>
           <div className='footer-link-items'>
-            <h2>Explorers</h2>
+            <h2>ExpA</h2>
             <Link to='/'>Who they are</Link>
-            <Link to='/'>Mision</Link>
             <Link to='/'>Principles</Link>
           </div>
           <div className='footer-link-items'>
@@ -52,9 +50,7 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              B
-              <div className="o-letter-social-logo">O</div>
-              ne
+              <img src='logo.svg'/>
               {/*<i className='fab fa-typo3' />*/}
             </Link>
           </div>

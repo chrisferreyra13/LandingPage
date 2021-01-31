@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .footer-subscription {
@@ -130,6 +131,11 @@
   display: flex;
   align-items: center;
   margin-bottom: 16px;
+  height: 80px;
+}
+.social-logo > img {
+  height:80%;
+  width: auto;
 }
 .o-letter-social-logo {
   color: #00c36f;

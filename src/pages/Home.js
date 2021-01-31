@@ -5,12 +5,13 @@ import loadable from '@loadable/component';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
 
-import HireContent from '../content/HomeHire.json'
-import ProblemsContent from '../content/HomeProblems.json'
+import ExpAProjects from '../content/HomeExpAProjects.json'
+import ExpAProblemsContent from '../content/HomeExpAProblems.js'
+import ExpAProblems from '../content/HomeExpAProblems.json'
 import MiddleBlockHomeContent from '../content/MiddleBlockHomeContent'
-import ExplorersMiddleBlock from '../content/HomeExplorersMiddleBlock.json'
-import ExplorersRecruitment from '../content/HomeExplorersRecruitment.json'
-import ExplorersMotivation from '../content/HomeExplorersMotivation.json'
+import ExpAMiddleBlock from '../content/HomeExpAMiddleBlock.json'
+import ExpARecruitment from '../content/HomeExpARecruitment.json'
+import ExpAMotivation from '../content/HomeExpAMotivation.json'
 import ProvocativeMiddleBlock from '../content/HomeProvocativeMiddleBlock.json'
 
 const MiddleBlock = loadable(() => import('../components/MiddleBlock'));
@@ -27,32 +28,32 @@ const Home = () => {
       />
       <Cards />
       <ContentBlock
-      img={HireContent.img}
+      img={ExpAProjects.img}
       left={true}
-      title={HireContent.title}
-      content={HireContent.content}
+      title={ExpAProjects.title}
+      content={ExpAProjects.content}
       />
       <ContentBlock
-      img={ProblemsContent.img}
+      img={ExpAProblems.img}
       left={false}
-      title={ProblemsContent.title}
-      content={ProblemsContent.content}
+      title={ExpAProblems.title}
+      content={ExpAProblemsContent}
       />
       <MiddleBlock 
-      title={ExplorersMiddleBlock.title}
-      content={ExplorersMiddleBlock.content}
+      title={ExpAMiddleBlock.title}
+      content={ExpAMiddleBlock.content}
       />
       <ContentBlock
-      img={ExplorersRecruitment.img}
+      img={ExpARecruitment.img}
       left={true}
-      title={ExplorersRecruitment.title}
-      content={ExplorersRecruitment.content}
+      title={ExpARecruitment.title}
+      content={ExpARecruitment.content}
       />
       <ContentBlock
-      img={ExplorersMotivation.img}
+      img={ExpAMotivation.img}
       left={false}
-      title={ExplorersMotivation.title}
-      content={ExplorersMotivation.content}
+      title={ExpAMotivation.title}
+      content={ExpAMotivation.content}
       />
       <MiddleBlock 
       title={ProvocativeMiddleBlock.title}

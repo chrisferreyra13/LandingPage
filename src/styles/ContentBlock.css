@@ -80,6 +80,12 @@
     .service-container {
       display: block;
     }
+    .margin-mobile-bottom{
+      margin-bottom: 30px;
+    }
+    .margin-mobile-top{
+      margin-top: 30px;
+    }
     
     .services-card {
       width: 100%;

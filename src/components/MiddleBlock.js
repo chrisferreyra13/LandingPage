@@ -12,7 +12,7 @@ const MiddleBlock = ({ title, content}) => {
       <Row type="flex" justify="center" align="middle">
         <div className="content-wrapper">
           <Col lg={24} md={24} sm={24} xs={24}>
-              <h6>{title}</h6>
+              <h6 className="middle-block-title">{title}</h6>
               {/*<ColoredLine className="line" color="#02af64"/>*/}
               <div className="content">{content}</div>
           </Col>

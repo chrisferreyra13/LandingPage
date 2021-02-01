@@ -8,7 +8,7 @@ const ContentBlock = ({ img, left, title, content}) => {
     <>
       {left ?
         <div className="service-container">
-          <div className="services-card">
+          <div className="services-card margin-mobile-bottom">
             <img src={img}/>
           </div>
           <div className="service-description">
@@ -21,7 +21,7 @@ const ContentBlock = ({ img, left, title, content}) => {
             <h3>{title}</h3>
             <div className="service-description-content">{content}</div>
           </div>
-          <div className="services-card">
+          <div className="services-card margin-mobile-top">
             <img src={img} />
           </div>
         </div>

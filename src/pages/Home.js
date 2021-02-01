@@ -5,14 +5,14 @@ import loadable from '@loadable/component';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
 
-import ExpAProjects from '../content/HomeExpAProjects.json'
-import ExpAProblemsContent from '../content/HomeExpAProblems.js'
-import ExpAProblems from '../content/HomeExpAProblems.json'
-import MiddleBlockHomeContent from '../content/MiddleBlockHomeContent'
-import ExpAMiddleBlock from '../content/HomeExpAMiddleBlock.json'
-import ExpARecruitment from '../content/HomeExpARecruitment.json'
-import ExpAMotivation from '../content/HomeExpAMotivation.json'
-import ProvocativeMiddleBlock from '../content/HomeProvocativeMiddleBlock.json'
+import ExpAProjects from '../content/home/HomeExpAProjects.json'
+import ExpAProblemsContent from '../content/home/HomeExpAProblems.js'
+import ExpAProblems from '../content/home/HomeExpAProblems.json'
+import MiddleBlockHomeContent from '../content/home/MiddleBlockHomeContent'
+import ExpAMiddleBlock from '../content/home/HomeExpAMiddleBlock.json'
+import ExpARecruitment from '../content/home/HomeExpARecruitment.json'
+import ExpAMotivation from '../content/home/HomeExpAMotivation.json'
+import ProvocativeMiddleBlock from '../content/home/HomeProvocativeMiddleBlock.json'
 
 const MiddleBlock = loadable(() => import('../components/MiddleBlock'));
 const Cards = loadable(() => import('../components/Cards'));

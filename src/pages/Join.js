@@ -5,11 +5,15 @@ import loadable from '@loadable/component';
 
 import Footer from '../components/Footer';
 
-import JoinHeaderContent from '../content/JoinHeaderContent'
-import Principles from '../content/Principles.json';
-import Beneficios from '../content/Services.json';
-import Mision from '../content/AboutUsMisionMiddleBlock.json'
-import CycleOfSustainability from '../content/CycleOfSustainability.json'
+import JoinHeaderContent from '../content/join/JoinHeaderContent'
+import ExpAProjects from '../content/join/JoinExpAProjects.json'
+import ExpAProblems from '../content/join/JoinExpAProblems.json'
+import Community from '../content/join/JoinExpACommunity.json'
+import Principles from '../content/join/JoinPrinciples.json';
+import BenefitsEntrepreneurExpA from '../content/join/JoinBenefitsEntrepreneur.json';
+import BenefitsExpA from '../content/join/JoinBenefitsExpA.json';
+import ProvocativeEnding from '../content/join/JoinProvocativeMiddleBlock.json'
+
 
 const Header = loadable(() => import('../components/Header'));
 const MiddleBlock = loadable(() => import('../components/MiddleBlock'));
@@ -34,39 +38,39 @@ const Join = () => {
       />
       <ContentBlock
       left={false}
-      img={CycleOfSustainability.img}
-      title={CycleOfSustainability.title}
-      content={CycleOfSustainability.content}
+      img={ExpAProjects.img}
+      title={ExpAProjects.title}
+      content={ExpAProjects.content}
       />
       <Services
-      title={"Beneficios"}
-      data={Beneficios.Services}
+      title={"Benefits"}
+      data={BenefitsExpA.Services}
       />
       <ContentBlock
       left={true}
-      img={CycleOfSustainability.img}
-      title={CycleOfSustainability.title}
-      content={CycleOfSustainability.content}
+      img={ExpAProblems.img}
+      title={ExpAProblems.title}
+      content={ExpAProblems.content}
       />
       <Features
       title={"We Are Your Vehicle"}
-      data={Principles.Features}
+      data={BenefitsEntrepreneurExpA.Features}
       />
       <ContentBlock
       left={true}
-      img={CycleOfSustainability.img}
-      title={CycleOfSustainability.title}
-      content={CycleOfSustainability.content}
+      img={Community.img}
+      title={Community.title}
+      content={Community.content}
       />
       <ContentBlock
       left={false}
-      img={CycleOfSustainability.img}
-      title={CycleOfSustainability.title}
-      content={CycleOfSustainability.content}
+      img={Community.img}
+      title={Community.title}
+      content={Community.content}
       />
       <MiddleBlock
-      title={Mision.title}
-      content={Mision.content}
+      title={ProvocativeEnding.title}
+      content={ProvocativeEnding.content}
       />
       <Footer />
     </>

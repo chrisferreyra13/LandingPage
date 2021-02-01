@@ -17,7 +17,7 @@ const Services = ({title,data}) => {
             ? data.map((d, i) => (
                 <div  key={`${d.name}-${i}`} className="col-md-4">
                   {" "}
-                  <i className={d.icon}></i>
+                  <i className={d.icon + ' services-icon'}></i>
                   <div className="service-desc">
                     <h3 className="services-subtitle">{d.name}</h3>
                     <p className="services-text">{d.text}</p>

@@ -1,0 +1,14 @@
+{ "Features": [{
+    "icon": "fas fa-project-diagram",
+    "title": "Investors"
+  },
+  {
+    "icon": "fas fa-brain",
+    "title": "Mentoring"
+  },
+  {
+    "icon": "fas fa-hands",
+    "title": "Facilities"
+  }
+  ]
+}
